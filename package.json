@@ -1,0 +1,15 @@
+{
+  "name": "myblog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:zxk0212/myblog.git",
+  "author": "zxkcy0212 <2531286538@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.7.1"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
